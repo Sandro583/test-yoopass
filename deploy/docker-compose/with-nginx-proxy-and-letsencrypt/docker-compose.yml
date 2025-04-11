@@ -42,10 +42,8 @@ services:
     expose:
       - "80"
 
-# yamllint disable rule:empty-values
 volumes:
   certs:
   vhost.d:
   html:
   acme.sh:
-# yamllint enable rule:empty-values
